@@ -27,7 +27,7 @@ void insertionSort(vector <int>  ar) {
             //Once the element is inserted break out of the loop
             ar[i+1] = elem;
             i = -1;
-        }
+        } 
         vector<int>::iterator it;
         for(it = ar.begin();it < ar.end(); it++) {
             cout<< *it << " ";
